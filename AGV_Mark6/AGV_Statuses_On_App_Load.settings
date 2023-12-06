@@ -1,0 +1,27 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="AGV_Mark6" GeneratedClassName="AGV_Statuses_On_App_Load">
+  <Profiles />
+  <Settings>
+    <Setting Name="OnAppStart_loadStatus" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Загруженность:Пустая</Value>
+    </Setting>
+    <Setting Name="OnAppStart_LastBase" Type="System.String" Scope="User">
+      <Value Profile="(Default)">Склад</Value>
+    </Setting>
+    <Setting Name="OnAppStart_TaskCanceled" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OnAppStart_TransitionExit" Type="System.Boolean" Scope="User">
+      <Value Profile="(Default)">False</Value>
+    </Setting>
+    <Setting Name="OnAppStart_CurrentTaskSteps" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OnAppStart_TransitionMissCount" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="OnAppStart_AGV_Quest" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+  </Settings>
+</SettingsFile>

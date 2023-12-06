@@ -1,0 +1,295 @@
+﻿<Window x:Class="AGV_Mark6.RoutesEditClass"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:AGV_Mark6"
+        mc:Ignorable="d"
+        Title="Редактирование маршрутов" Height="500" Width="1100" ResizeMode="NoResize" Closed="Window_Closed" Background="#93afe8" WindowStartupLocation="CenterOwner">
+    <Window.Resources>
+        <!--Стиль Textblock Для кнопок-->
+        <Style x:Key="ButtonTextBlockStyle" TargetType="TextBlock">
+            <Setter Property="TextWrapping" Value="Wrap"/>
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="FontSize" Value="19"/>
+            <Setter Property="FontFamily" Value="Calibri"/>
+        </Style>
+        
+        <Style x:Key="BorderStyleLayer1" TargetType="Border">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Background" Value="#93afe8"/>
+        </Style>
+        <!--Стиль Border2 -->
+        <Style x:Key="BorderStyleLayer2" TargetType="Border">
+            <Setter Property="CornerRadius" Value="10"/>
+            <Setter Property="BorderThickness" Value="2"/>
+            <Setter Property="Background" Value="White"/>
+            <Setter Property="BorderBrush" Value="Gray"/>
+            <Setter Property="Margin" Value="4"/>
+        </Style>
+        <!--Стиль для Кнопок с анимацией-->
+        <ControlTemplate x:Key="ButtonstyleAnimated" TargetType="Button">
+            <Border CornerRadius="2"
+                BorderBrush="{TemplateBinding BorderBrush}"
+                BorderThickness="{TemplateBinding BorderThickness}"
+                Height="{TemplateBinding Height}"
+                Width="{TemplateBinding Width}"
+                        TextBlock.Foreground="Black"
+        TextBlock.FontSize="14"
+        TextBlock.FontWeight="Medium">
+                <ContentPresenter HorizontalAlignment="Center" 
+                      VerticalAlignment="Center"/>
+                <Border.Background>
+                    <LinearGradientBrush  EndPoint="0.5,1" StartPoint="0.5,0">
+                        <GradientStop x:Name="Color1" Color="#FFFFFFEE"/>
+                        <GradientStop x:Name="Color2" Color="#FFFBFAAF" Offset="1"/>
+                    </LinearGradientBrush>
+                </Border.Background>
+
+                <VisualStateManager.VisualStateGroups>
+                    <VisualStateGroup Name="CommonStates">
+                        <VisualState Name="MouseOver">
+                            <Storyboard>
+                                <ColorAnimationUsingKeyFrames  Storyboard.TargetName="Color2"
+                                    Storyboard.TargetProperty="Color" Duration="0:0:1" >
+                                    <ColorAnimationUsingKeyFrames.KeyFrames>
+                                        <SplineColorKeyFrame   KeyTime="00:00:00.0050" Value="#FAF9DE"/>
+                                        <SplineColorKeyFrame   KeyTime="00:00:00.0100" Value="#FAFAFA"/>
+                                        <SplineColorKeyFrame   KeyTime="00:00:00.0300" Value="#D7E3FA"/>
+                                        <SplineColorKeyFrame   KeyTime="00:00:00.0350" Value="#C4D8FF"/>
+                                        <SplineColorKeyFrame   KeyTime="00:00:00.0400" Value="#C4D8FF"/>
+                                    </ColorAnimationUsingKeyFrames.KeyFrames>
+
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState Name="Normal">
+                            <Storyboard>
+                                <ColorAnimation Storyboard.TargetName="Color2"
+                                    Storyboard.TargetProperty="Color" Duration="0:0:0.1" To="#FFFBFAAF">
+                                </ColorAnimation>
+                            </Storyboard>
+                        </VisualState>
+                        <VisualState Name="Pressed">
+                            <Storyboard>
+                                <ColorAnimationUsingKeyFrames  Storyboard.TargetName="Color2"
+                                    Storyboard.TargetProperty="Color" Duration="0:0:3"  >
+                                    <ColorAnimationUsingKeyFrames.KeyFrames>
+                                        <SplineColorKeyFrame   KeyTime="00:00:00.0100" Value="#E8D5E4"/>
+                                        <SplineColorKeyFrame   KeyTime="00:00:00.0200" Value="#E6C1DE"/>
+                                        <SplineColorKeyFrame   KeyTime="00:00:00.0500" Value="#D9A5CD"/>
+                                        <SplineColorKeyFrame   KeyTime="00:00:01.5000" Value="#D9A5CD"/>
+                                    </ColorAnimationUsingKeyFrames.KeyFrames>
+                                </ColorAnimationUsingKeyFrames>
+                            </Storyboard>
+                        </VisualState>
+                    </VisualStateGroup>
+                </VisualStateManager.VisualStateGroups>
+            </Border>
+        </ControlTemplate>
+        <Style x:Key="TextBlockStyle" TargetType="TextBlock">
+            <Setter Property="FontSize" Value="20"/>
+            <Setter Property="FontFamily" Value="Arial"/>
+        </Style>
+    </Window.Resources>
+    <Grid Background="#93afe8">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="2*"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition Height="0.33*"/>
+        </Grid.RowDefinitions>
+        <Border Style="{StaticResource BorderStyleLayer1}" Grid.Column="0" Grid.RowSpan="3">
+            
+                <Border Style="{StaticResource BorderStyleLayer2}" Grid.Column="0" Grid.RowSpan="3">
+                    <Border.Effect>
+                        <DropShadowEffect Color="#FF484646" ShadowDepth="0" BlurRadius="5" Opacity="0.3" Direction="0"/>
+                    </Border.Effect>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.3*"/>
+                        <RowDefinition Height="3*"/>
+                        <RowDefinition Height="0.5*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition/>
+                        <ColumnDefinition/>
+                    </Grid.ColumnDefinitions>
+
+                    <TextBlock  Text="Текущие задачи" TextAlignment="Center" Grid.Row="0" Grid.Column="0" Style="{StaticResource TextBlockStyle}" Margin="0,10,0,0"/>
+                    <TextBlock Text="Список маршрутов"  TextAlignment="Center" Grid.Row="0" Grid.Column="1" Style="{StaticResource TextBlockStyle}" Margin="0,10,0,0"/>
+
+                    <ListBox x:Name="LB_CurrentQueue" Margin="15,5,15,5" Grid.Row="1" Grid.Column="0" 
+                             FontSize="18" FontFamily="Calibri"
+                             SelectionChanged="LB_CurrentQueue_SelectionChanged"/>
+                    <!--Маршруты Tabcontrol-->
+                    <TabControl TabStripPlacement="Bottom" x:Name="TabRoutes" SelectionChanged="TabControl_SelectionChanged" Grid.Row="1" Grid.Column="1" Grid.RowSpan="2"  Margin="10,5,15,5" >
+                        <!--Маршруты Главные-->
+                        <TabItem x:Name="RoutesPageMain">
+                            <TabItem.Background>
+                                <LinearGradientBrush EndPoint="0,5">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#FFF6CE45" Offset="0.418"/>
+                                </LinearGradientBrush>
+                            </TabItem.Background>
+                            <TabItem.Header>
+                                <StackPanel >
+                                    <TextBlock FontFamily="Arial" FontSize="17" >Главные</TextBlock>
+                                </StackPanel>
+                            </TabItem.Header>
+                            <Grid x:Name="Grid_MainRoutes">
+                                <ListBox x:Name="LB_AddingQueue" 
+                             
+                             MouseDoubleClick="LB_AddingQueue_MouseDoubleClick" 
+                             SelectionChanged="LB_AddingQueue_SelectionChanged" 
+                             FontSize="18" FontFamily="Calibri" />
+                            </Grid>
+                        </TabItem>
+                        <!--Маршруты Home-->
+                        <TabItem  x:Name="RoutesPageHome">
+                            <TabItem.Background>
+                                <LinearGradientBrush EndPoint="0,5">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#FFF6CE45" Offset="0.418"/>
+                                </LinearGradientBrush>
+                            </TabItem.Background>
+                            <TabItem.Header>
+                                <StackPanel >
+                                    <TextBlock FontFamily="Arial" FontSize="17" >Home</TextBlock>
+                                </StackPanel>
+                            </TabItem.Header>
+                            <Grid x:Name="Grid_HomeRoutes">
+
+                            </Grid>
+                        </TabItem>
+                        <!--Маршруты к ловителям-->
+                        <TabItem x:Name="RoutesPageCatchers">
+                            <TabItem.Background>
+                                <LinearGradientBrush EndPoint="0,5">
+                                    <GradientStop Color="White" Offset="0"/>
+                                    <GradientStop Color="#FFF6CE45" Offset="0.418"/>
+                                </LinearGradientBrush>
+                            </TabItem.Background>
+                            <TabItem.Header>
+                                <StackPanel >
+                                    <TextBlock FontFamily="Arial" FontSize="17" >Ловители</TextBlock>
+                                </StackPanel>
+                            </TabItem.Header>
+                            <Grid x:Name="Grid_CatchersRoutes">
+
+                            </Grid>
+                        </TabItem>
+                    </TabControl>
+                </Grid>
+            </Border>
+                
+            
+        </Border>
+        <Border  Style="{StaticResource BorderStyleLayer1}" Grid.Column="1" Grid.RowSpan="3">
+            <Grid Background="#93afe8">
+                <Border  Style="{StaticResource BorderStyleLayer2}" Grid.Column="2" Grid.RowSpan="3">
+                    <Border.Effect>
+                        <DropShadowEffect Color="#FF484646" ShadowDepth="0" BlurRadius="5" Opacity="0.3" Direction="0"/>
+                    </Border.Effect>
+                </Border>
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="0.55*"/>
+                        <RowDefinition Height="2.3*"/>
+                        <RowDefinition Height="0.5*"/>
+                    </Grid.RowDefinitions>
+                    <StackPanel Grid.Row="0" Orientation="Vertical">
+                        <TextBlock Text="Название маршрута" HorizontalAlignment="Center" Style="{StaticResource TextBlockStyle}" Margin="0,18,0,10"/>
+                        <TextBox x:Name="TB_RouteName" Text="" IsReadOnly="True" TextWrapping="Wrap" HorizontalAlignment="Stretch" Margin="50,0,50,0" Height="25">
+                            <TextBox.Resources>
+                                <Style TargetType="{x:Type Border}">
+                                    <Setter Property="CornerRadius" Value="10" />
+                                </Style>
+                            </TextBox.Resources>
+                        </TextBox>
+                    </StackPanel>
+                    
+                    <DataGrid  x:Name="DG_RouteEditor" Grid.Row="1"
+                               ItemsSource="{Binding RoutesEditor, Mode=TwoWay}"
+                               CanUserDeleteRows="True"
+                               Margin="15,5,15,5"
+                               PreviewTextInput="DG_RouteEditor_PreviewTextInput"
+                               PreviewKeyDown="DG_RouteEditor_PreviewKeyDown"
+                               KeyDown="DG_RouteEditor_KeyDown" Background="White" SelectionUnit="Cell"  BorderThickness="0"
+                               FontFamily="Calibri" FontSize="18"
+                               AutoGenerateColumns="False"
+                               HorizontalGridLinesBrush="LightGray"
+                               VerticalGridLinesBrush="LightGray"
+                               CanUserAddRows="True"
+                               RowHeaderWidth="0">
+                        
+                        <DataGrid.Resources>
+                            <Style TargetType="{x:Type DataGridCell}">
+                                <Style.Triggers>
+                                    <Trigger Property="DataGridCell.IsSelected" Value="True">
+                                        <Setter Property="BorderBrush" Value="#F08FCA"/>
+                                        <Setter Property="Background" Value="White"/>
+                                        <Setter Property="TextBlock.Foreground" Value="Black" />
+                                    </Trigger>
+                                </Style.Triggers>
+                            </Style>
+                        </DataGrid.Resources>
+                        <!--Текст Wrap-->
+                        <DataGrid.ColumnHeaderStyle>
+                            <Style TargetType="DataGridColumnHeader">
+                                <Setter Property="ContentTemplate">
+                                    <Setter.Value>
+                                        <DataTemplate>
+                                            <TextBlock TextWrapping="Wrap" Text="{Binding}"></TextBlock>
+                                        </DataTemplate>
+                                    </Setter.Value>
+                                </Setter>
+                            </Style>
+                        </DataGrid.ColumnHeaderStyle>
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Шаг"
+                                Binding="{Binding Path=Step, Mode=TwoWay}"
+                                Width="0.6*" >
+                            </DataGridTextColumn>
+                            <DataGridTextColumn Header="Программа"
+                                Binding="{Binding Path=Program, Mode=TwoWay}"
+                                Width="1*" />
+                        </DataGrid.Columns>
+                    </DataGrid>
+                </Grid>
+            </Grid>
+        </Border>
+        <Grid Grid.Row="3" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="BT_QueueSave" Template="{StaticResource ButtonstyleAnimated}" Margin="20,5,15,15" 
+                    Click="BT_QueueSave_Click" MouseLeave="BT_QueueSave_MouseLeave"
+                    HorizontalAlignment="Stretch"  >
+                <TextBlock Text="Сохранить очередь" Style="{StaticResource ButtonTextBlockStyle}"/>
+            </Button>
+            <Popup x:Name="Popup_QueueSaved" StaysOpen="True" PopupAnimation="Fade"  Placement="Mouse" MaxWidth="180"
+         AllowsTransparency="True">
+                <Border BorderThickness="0" Background="White">
+                    <TextBlock FontFamily="Calibri" FontSize="19" TextWrapping="Wrap" >
+                    Очередь сохранена
+                    </TextBlock>
+                </Border>
+            </Popup>
+            
+            <!--<Button x:Name="BT_OpenRoutesForHomes" Template="{StaticResource ButtonstyleAnimated}" Grid.Column="1" Margin="10,5,21,15"  Click="BT_OpenRoutesForHomes_Click"  >
+                <TextBlock Text="Открыть очередь Маршрутов Home"  Style="{StaticResource ButtonTextBlockStyle}"/>
+            </Button>-->
+            
+        </Grid>
+        <Button x:Name="BT_SaveRoute" Template="{StaticResource ButtonstyleAnimated}" Margin="20,5,15,15" Grid.Column="1" Grid.Row="2" Click="BT_SaveRoute_Click" HorizontalAlignment="Stretch">
+            <TextBlock Text="Сохранить маршрут" Style="{StaticResource ButtonTextBlockStyle}"/>
+        </Button>
+
+    </Grid>
+</Window>

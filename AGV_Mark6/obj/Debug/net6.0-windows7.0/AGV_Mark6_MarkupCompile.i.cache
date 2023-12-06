@@ -1,0 +1,20 @@
+﻿AGV_Mark6
+1.0.0.0
+
+winexe
+C#
+.cs
+C:\Users\shermatov\source\repos\AGV_Mark6 — копия\AGV_Mark6\obj\Debug\net6.0-windows7.0\
+AGV_Mark6
+none
+false
+TRACE;DEBUG;NET;NET6_0;NETCOREAPP
+C:\Users\shermatov\source\repos\AGV_Mark6 — копия\AGV_Mark6\App.xaml
+41055098463
+22845017070
+23148324075
+2291020946084
+AdditionWindows\Control_AGV.xaml;AdditionWindows\NewAgvProgram.xaml;AdditionWindows\RoutesSelector.xaml;MainWindow.xaml;
+
+False
+

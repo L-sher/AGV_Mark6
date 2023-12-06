@@ -1,0 +1,79 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+<UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="bin\Debug\!CurrentQueue.txt" />
+    <Content Include="bin\Debug\!CurrentTaskSteps.txt" />
+    <Content Include="bin\Debug\!lastBase.txt" />
+    <Content Include="bin\Debug\!LoadStatus.txt" />
+    <Content Include="bin\Debug\!Routes.txt" />
+    <Content Include="bin\Debug\!TransitionMissCount.txt" />
+    <Content Include="bin\Debug\!WithoutTransition.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!CurrentQueue.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!LoadStatus.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Button1.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Button2.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Operators_Button.deps.json" />
+    <Content Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Operators_Button.runtimeconfig.json" />
+    <Content Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Register1.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Register2.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!Routes.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!RoutesBetweenBases.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!RoutesMain.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!TransitionMissCount.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!WithoutTransition.txt" />
+    <Content Include="bin\Debug\net6.0-windows\!Правила создания маршрутов.txt" />
+    <Resource Include="bin\Debug\net6.0-windows\Images\Itelma_Logos_Eng.png">
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EasyModbusTCP.NETCore" Version="1.0.0" />
+    <PackageReference Include="EEIP_Core" Version="1.0.0" />
+    <PackageReference Include="FluentModbus" Version="5.0.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.5" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="7.0.5">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Serilog" Version="2.12.0" />
+    <PackageReference Include="Serilog.Formatting.Compact" Version="1.1.0" />
+    <PackageReference Include="Serilog.Sinks.File" Version="5.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="bin\Debug\AGV_ProgramsStorage_DB.db" />
+    <None Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\EasyModbus.dll" />
+    <None Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Newtonsoft.Json.dll" />
+    <None Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Operators_Button.dll" />
+    <None Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Operators_Button.exe" />
+    <None Include="bin\Debug\net6.0-windows\!ProgrammingButtonsHere\Operators_Button.pdb" />
+    <None Include="bin\Debug\net6.0-windows\AGV_ProgramsStorage_DB.db" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="AGV_Statuses_On_App_Load.Designer.cs">
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>AGV_Statuses_On_App_Load.settings</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="AGV_Statuses_On_App_Load.settings">
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
+      <LastGenOutput>AGV_Statuses_On_App_Load.Designer.cs</LastGenOutput>
+    </None>
+  </ItemGroup>
+
+</Project>

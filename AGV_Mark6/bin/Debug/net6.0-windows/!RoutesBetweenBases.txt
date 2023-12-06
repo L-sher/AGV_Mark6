@@ -1,0 +1,10 @@
+Зарядка->home:p0s0;
+Линия->crosspoint:p1s6;
+Линия->home:p1s31;
+Склад->crosspoint:p1s10;p1s11;
+Склад->home:p1s32;p1s31;
+crosspoint->Линия:p1s12;p1s13;p1s14;
+crosspoint->Склад:p1s7;p1s8;
+home->Зарядка:p0s0;
+home->Склад:p1s32;p1s33;
+home->Линия:p1s28;p1s29;p1s2;

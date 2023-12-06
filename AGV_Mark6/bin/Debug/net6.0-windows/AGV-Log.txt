@@ -1,0 +1,410 @@
+{"@t":"2023-09-15T11:15:41.8268508","@mt":"Строка 63"}
+{"@t":"2023-09-15T11:15:41.8413605","@mt":"Строка 76"}
+{"@t":"2023-09-15T11:15:41.8442460","@mt":"Строка 88"}
+{"@t":"2023-09-15T11:15:41.8450609","@mt":"Строка 91"}
+{"@t":"2023-09-15T11:15:41.8601818","@mt":"Строка 117"}
+{"@t":"2023-09-15T11:15:41.8624061","@mt":"Harmony нашлась"}
+{"@t":"2023-09-15T11:16:37.6497081","@mt":"Строка 63"}
+{"@t":"2023-09-15T11:16:37.6626958","@mt":"Строка 76"}
+{"@t":"2023-09-15T11:16:37.6653840","@mt":"Строка 88"}
+{"@t":"2023-09-15T11:16:37.6663590","@mt":"Строка 91"}
+{"@t":"2023-09-15T11:16:37.6772172","@mt":"Строка 117"}
+{"@t":"2023-09-15T11:16:37.6780840","@mt":"Harmony нашлась"}
+{"@t":"2023-09-15T11:18:10.9070015","@mt":"Строка 63"}
+{"@t":"2023-09-15T11:18:11.1404818","@mt":"Строка 76"}
+{"@t":"2023-09-15T11:18:11.1553279","@mt":"Строка 88"}
+{"@t":"2023-09-15T11:18:11.1592885","@mt":"Строка 91"}
+{"@t":"2023-09-15T11:18:11.1933589","@mt":"Harmony нашлась"}
+{"@t":"2023-09-15T11:18:11.2020712","@mt":"Строка 117"}
+{"@t":"2023-09-15T11:20:12.0968392","@mt":"Строка 63"}
+{"@t":"2023-09-15T11:20:12.2886445","@mt":"Строка 76"}
+{"@t":"2023-09-15T11:20:12.2990355","@mt":"Строка 88"}
+{"@t":"2023-09-15T11:20:12.3119615","@mt":"Строка 91"}
+{"@t":"2023-09-15T11:20:12.3433591","@mt":"Harmony нашлась"}
+{"@t":"2023-09-15T11:20:12.3482847","@mt":"Строка 117"}
+{"@t":"2023-09-15T11:20:57.0429695","@mt":"Строка 63"}
+{"@t":"2023-09-15T11:20:57.0579328","@mt":"Строка 76"}
+{"@t":"2023-09-15T11:20:57.0608678","@mt":"Строка 88"}
+{"@t":"2023-09-15T11:20:57.0619943","@mt":"Строка 91"}
+{"@t":"2023-09-15T11:20:57.0781894","@mt":"Harmony нашлась"}
+{"@t":"2023-09-15T11:20:57.0828722","@mt":"Строка 117"}
+{"@t":"2023-09-15T16:29:40.7326230","@mt":"Harmony нашлась"}
+{"@t":"2023-09-15T16:29:40.7526506","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-15T22:44:44.0549406","@mt":"Harmony нашлась"}
+{"@t":"2023-09-15T22:44:44.0559978","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-16T10:51:37.8000113","@mt":"Harmony нашлась"}
+{"@t":"2023-09-16T10:51:37.8010568","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-16T21:48:58.4389854","@mt":"Harmony нашлась"}
+{"@t":"2023-09-16T21:48:58.4406076","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-18T02:33:37.4763719","@mt":"Harmony нашлась"}
+{"@t":"2023-09-18T02:33:37.4781999","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-18T10:49:40.9172109","@mt":"Harmony нашлась"}
+{"@t":"2023-09-18T10:49:40.9184821","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-18T17:00:32.1159895","@mt":"Harmony нашлась"}
+{"@t":"2023-09-18T17:00:32.1172587","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:18:51.0476397","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:18:53.0489742","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:18:55.0511583","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:18:57.0523370","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:18:59.0539881","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:01.0560097","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:03.0571428","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:05.0584763","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:07.0592221","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:09.0599167","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:11.0613064","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:13.0621722","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:15.0636116","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:17.0651625","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:19.0666174","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:21.0683402","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:23.0689386","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:25.0699663","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:27.0713589","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:29.0742761","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:31.0751620","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:33.0778188","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:35.0784125","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:37.0794607","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:39.0802052","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:41.0814470","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:43.0825702","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:45.0837546","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:47.0844790","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:49.0855616","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:51.0874322","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:53.0879888","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:55.0895044","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:57.0914098","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:19:59.0925482","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:01.0929169","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:03.0941627","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:05.0950359","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:07.0962544","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:09.0981094","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:11.0992724","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:13.1011648","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:15.1031206","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:17.1043747","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:19.1062123","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:21.1074586","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:23.1086232","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:25.1096525","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:27.1106897","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:29.1124618","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:31.1133535","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:33.1146788","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:35.1165084","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:37.1177061","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:39.1182319","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:41.1190690","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:43.1198204","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:45.1209564","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:47.1228648","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:49.1236118","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:51.1255824","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:53.1265856","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:55.1282019","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:57.1288278","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:20:59.1300915","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:01.1307477","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:03.1315414","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:05.1334566","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:07.1350032","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:09.1357608","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:11.1364560","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:13.1380772","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:15.1396353","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:17.1403697","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:19.1415316","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:21.1427466","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:23.1442850","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:25.1451169","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:27.1469230","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:29.1485212","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:31.1493431","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:33.1506781","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:35.1516844","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:37.1534774","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:39.1551095","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:41.1560779","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:43.1570918","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:45.1580512","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:47.1592428","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:49.1610273","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:51.1614044","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:53.1625005","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:55.1634532","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:57.1642517","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:21:59.1650397","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:01.1657611","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:03.1669137","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:05.1678389","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:07.1680360","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:09.1688991","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:11.1704762","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:13.1726274","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:15.1737040","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:17.1749288","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:19.1763978","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:21.1769489","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:23.1783288","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:25.1793580","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:27.1801750","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:29.1818085","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:31.1830159","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:33.1837010","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:35.1848698","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:37.1854838","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:39.1873834","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:41.1889594","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:43.1915972","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:45.1931973","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:47.1949467","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:49.1955886","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:51.1968057","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:53.1977439","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:55.1983590","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:57.1999155","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:22:59.2010647","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:01.2025751","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:03.2040224","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:05.2053346","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:07.2058002","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:09.2068322","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:11.2077551","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:13.2094830","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:15.2106323","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:17.2114084","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:19.2130913","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:21.2137244","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:23.2140775","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:25.2153693","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:27.2174082","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:29.2189592","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:31.2205305","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:33.2221804","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:35.2228964","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:37.2249142","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:39.2265232","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:41.2276467","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:43.2287441","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:45.2295991","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:47.2334729","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:49.2344637","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:51.2359386","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:53.2376229","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:55.2391912","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:57.2401112","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T09:23:58.6082375","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:23:58.6089397","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:23:59.6168814","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:23:59.6177598","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:24:34.1455575","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:24:34.1463513","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:24:40.0460548","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:24:40.0469740","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:25:10.9470494","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:25:10.9473038","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:26:31.0477745","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:26:31.0480032","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:26:37.4495221","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:26:37.4497008","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:26:46.4495320","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:26:46.4497842","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:27:15.2489531","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:27:15.2498275","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:28:25.1471509","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:28:25.1473511","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:28:42.6497128","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:28:42.6499117","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:29:04.0491247","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:29:04.0492897","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:29:20.6502630","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:29:20.6504433","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:29:30.7497837","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:29:30.7500217","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:29:37.0511203","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:29:37.0512909","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:29:44.1523552","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:29:44.1525535","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T09:51:51.2805885","@mt":"Строка 63"}
+{"@t":"2023-09-19T09:51:51.3083715","@mt":"Строка 76"}
+{"@t":"2023-09-19T09:51:51.3133454","@mt":"Строка 88"}
+{"@t":"2023-09-19T09:51:51.3213100","@mt":"Строка 91"}
+{"@t":"2023-09-19T09:51:51.3285836","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T09:51:51.3391690","@mt":"Строка 117"}
+{"@t":"2023-09-19T12:51:03.3993500","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:04.4013207","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:05.4027010","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:06.4039284","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:07.4059060","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:08.4072100","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:09.4082791","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:10.4094271","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:11.4103521","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:12.4113234","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:13.4122530","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:14.4134906","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:15.4147985","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:16.4158599","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:17.4178124","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:18.4195257","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:19.4210369","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:20.4220825","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:21.4229008","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:22.4243436","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:23.4258235","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:24.4267756","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:25.4278131","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:26.4299561","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:27.4309017","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:28.4318124","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:29.4329028","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:30.4338895","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:31.4345115","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:33.4424656","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:35.4724682","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:37.4736269","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:39.4755617","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:40.6770450","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:42.6890162","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:44.7039296","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:46.7050330","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:48.7079367","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:50.7091507","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:52.7097964","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:54.7118220","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:56.7128807","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:51:58.7150075","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:00.7169371","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:02.7181870","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:04.7202537","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:06.7212046","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:08.7221918","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:10.7232507","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:12.7250635","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:14.7268470","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:16.7287813","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:18.7308720","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:20.7327799","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:22.7348194","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:24.7365644","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:26.7371394","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:28.7380221","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:30.7392751","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:32.7406778","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:34.7426710","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:36.7436466","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:37.7522854","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:38.7529364","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:39.7540058","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:40.7549641","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:41.7566236","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:42.7583226","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:43.7592329","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:44.7602684","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:45.7612602","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:46.7625407","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:47.7632523","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:48.7642491","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:49.7652568","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:50.7682705","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:51.7692851","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:52.7702703","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:53.7722661","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:54.7728425","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:55.7738831","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:56.7753656","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:57.7860079","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:58.7867793","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:52:59.8065044","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:00.8080990","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:01.8089427","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:02.8098841","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:03.8108207","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:04.8122467","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:05.8133503","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:06.8146028","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:07.8153321","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:08.8163888","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:09.8173951","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:10.8182827","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:11.8199990","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:12.8213698","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:13.8223257","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:14.8233482","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:15.8243522","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:16.8252738","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:17.8263668","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:18.8273691","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:19.8283048","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:20.8293664","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:21.8303256","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:22.8320308","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:23.8333469","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:24.8344062","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:25.8354604","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:26.8370366","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:27.8383790","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:28.8394790","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:29.8404275","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:30.8414750","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:31.8424501","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:32.8437172","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:33.8443687","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:34.8454422","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:35.8471598","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:36.8482907","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:37.8491810","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:38.8501992","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:39.8524663","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:40.8531276","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:41.8546938","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:42.8562975","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:43.8573745","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:44.8582219","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:45.8588490","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:46.8598344","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:47.8608122","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:48.8619883","@mt":"Harmony не найдена в сети"}
+{"@t":"2023-09-19T12:53:49.8972700","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T12:53:50.0824300","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-19T16:57:31.9405727","@mt":"Harmony нашлась"}
+{"@t":"2023-09-19T16:57:31.9417195","@mt":"Harmony теряет связь. ButtonMonitoring System.IO.IOException: Unable to read data from the transport connection: Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера..\r\n ---> System.Net.Sockets.SocketException (10060): Попытка установить соединение была безуспешной, т.к. от другого компьютера за требуемое время не получен нужный отклик, или было разорвано уже установленное соединение из-за неверного отклика уже подключенного компьютера.\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   --- End of inner exception stack trace ---\r\n   at System.Net.Sockets.NetworkStream.Read(Byte[] buffer, Int32 offset, Int32 count)\r\n   at EasyModbus.ModbusClient.ReadHoldingRegisters(Int32 startingAddress, Int32 quantity)\r\n   at AGV_Mark6.HarmonyHub_Monitoring.HarmonyHub_Monitoring.ButtonMonitoring() in C:\\Users\\shermatov\\source\\repos\\AGV_Mark6 — копия\\AGV_Mark6\\HarmonyHub_Monitoring\\HarmonyHub_Monitoring.cs:line 83"}
+{"@t":"2023-09-21T08:41:12.1529447","@mt":"Строка 63"}
+{"@t":"2023-09-21T08:41:12.3427033","@mt":"Строка 76"}
+{"@t":"2023-09-21T08:41:12.3557005","@mt":"Строка 88"}
+{"@t":"2023-09-21T08:41:12.3603298","@mt":"Строка 91"}
+{"@t":"2023-09-21T08:41:12.3916229","@mt":"Строка 117"}
+{"@t":"2023-09-21T08:41:12.3925008","@mt":"Harmony нашлась"}
+{"@t":"2023-09-21T08:41:24.4164754","@mt":"Строка 63"}
+{"@t":"2023-09-21T08:41:24.4290681","@mt":"Строка 76"}
+{"@t":"2023-09-21T08:41:24.4338502","@mt":"Строка 88"}
+{"@t":"2023-09-21T08:41:24.4391054","@mt":"Строка 91"}
+{"@t":"2023-09-21T08:41:24.4498116","@mt":"Harmony нашлась"}
+{"@t":"2023-09-21T08:41:24.4531266","@mt":"Строка 117"}
+{"@t":"2023-09-21T09:42:31.9363114","@mt":"Строка 63"}
+{"@t":"2023-09-21T09:42:32.1212106","@mt":"Строка 76"}
+{"@t":"2023-09-21T09:42:32.1330956","@mt":"Строка 88"}
+{"@t":"2023-09-21T09:42:32.1364687","@mt":"Строка 91"}
+{"@t":"2023-09-21T09:42:32.1632861","@mt":"Строка 117"}
+{"@t":"2023-09-21T09:42:32.1668763","@mt":"Harmony нашлась"}
+{"@t":"2023-09-21T10:04:33.1410014","@mt":"Строка 63"}
+{"@t":"2023-09-21T10:19:33.6626934","@mt":"Строка 76"}
+{"@t":"2023-09-21T10:19:33.6736378","@mt":"Строка 88"}
+{"@t":"2023-09-21T10:19:33.6772811","@mt":"Строка 91"}
+{"@t":"2023-09-21T10:19:33.7036187","@mt":"Harmony нашлась"}
+{"@t":"2023-09-21T10:19:33.7171470","@mt":"Строка 117"}
+{"@t":"2023-09-22T09:03:51.9918932","@mt":"Строка 63"}
+{"@t":"2023-09-22T09:03:52.0052405","@mt":"Строка 76"}
+{"@t":"2023-09-22T09:03:52.0089426","@mt":"Строка 88"}
+{"@t":"2023-09-22T09:03:52.0117516","@mt":"Строка 91"}
+{"@t":"2023-09-22T09:03:52.0223145","@mt":"Harmony нашлась"}
+{"@t":"2023-09-22T09:03:52.0234776","@mt":"Строка 117"}
+{"@t":"2023-09-28T13:02:29.8628366","@mt":"Строка 63"}
+{"@t":"2023-09-28T13:02:29.8767685","@mt":"Строка 76"}
+{"@t":"2023-09-28T13:02:29.8814822","@mt":"Строка 88"}
+{"@t":"2023-09-28T13:02:29.8875440","@mt":"Строка 91"}
+{"@t":"2023-09-28T13:02:29.8945266","@mt":"Harmony нашлась"}
+{"@t":"2023-09-28T13:02:29.9044440","@mt":"Строка 117"}
