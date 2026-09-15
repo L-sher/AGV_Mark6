@@ -401,7 +401,7 @@ namespace AGV_Mark6
 
 
         #region//Режим Эмулятора
-        public static bool Emulator = false;
+        public static bool Emulator = true;
 
         private void RadioButton_Checked(object sender, RoutedEventArgs e)
         {
